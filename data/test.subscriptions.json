@@ -1,0 +1,46 @@
+[{
+  "_id": {
+    "$oid": "663da149ecc5e97e00ae6475"
+  },
+  "status": "active",
+  "category": "webapp",
+  "companyId": {
+    "$oid": "663da1470789f9adb9945ba5"
+  }
+}, {
+  "_id": {
+    "$oid": "663da149ecc5e97e00ae6479"
+  },
+  "status": "active",
+  "category": "webapp",
+  "companyId": {
+    "$oid": "663da1475d8b3bac1b45aba0"
+  }
+}, {
+  "_id": {
+    "$oid": "663da149ecc5e97e00ae6477"
+  },
+  "status": "active",
+  "category": "webapp",
+  "companyId": {
+    "$oid": "663da147c2d8235e49a6ac47"
+  }
+}, {
+  "_id": {
+    "$oid": "663da148ecc5e97e00ae646f"
+  },
+  "status": "terminated",
+  "category": "webapp",
+  "companyId": {
+    "$oid": "663da147e0dd2766c8df4f10"
+  }
+}, {
+  "_id": {
+    "$oid": "663da149ecc5e97e00ae6472"
+  },
+  "status": "active",
+  "category": "webapp",
+  "companyId": {
+    "$oid": "663da147e0dd2766c8df4f10"
+  }
+}]

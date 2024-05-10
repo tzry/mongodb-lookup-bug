@@ -1,0 +1,11 @@
+version: '3'
+services:
+  mongodbserver:
+    container_name: 'mongoLocalBuggy'
+    image: mongo:7.0.9
+    volumes:
+      - "./data:/home/data:ro"
+    ports:
+      - 27017:27017
+
+

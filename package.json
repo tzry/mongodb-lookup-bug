@@ -1,0 +1,21 @@
+{
+  "name": "mongodb-lookup-bug",
+  "version": "1.0.0",
+  "description": "",
+  "type": "commonjs",
+  "devDependencies": {
+    "chai": "^4.4.1",
+    "mocha": "^10.4.0",
+    "mongodb": "^6.6.1",
+    "lodash": "^4.17.21"
+  },
+  "scripts": {
+    "pretest": "docker pull mongo:7.0.10-rc0-jammy && docker run -p 27017:27017 --name mongoLocalBuggy -t -d mongo:7.0.10-rc0-jammy",
+    "test": "mocha tests/mongodb.test.js --timeout 999999999 --exit"
+  },
+  "private": true,
+  "volta": {
+    "node": "18.17.0",
+    "yarn": "1.22.19"
+  }
+}
