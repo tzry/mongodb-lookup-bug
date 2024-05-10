@@ -1,1 +1,1 @@
-`yarn test`
+`yarn install && yarn test`
